@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  background: black;
+  color: white;
+  width: 100%;
+}
+
+.text_header {
+  height: 200px;
+  background: cyan;
+  position: relative;
+}
+
+.text_header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  color: black;
+}
